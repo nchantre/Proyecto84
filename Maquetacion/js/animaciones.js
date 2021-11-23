@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#btnAnimacion").click(function(){
+        $("#img1").hide('slow');
+        $("#img2").hide('slow');
+    })
+    $("#btnmostrar").click(function(){
+        $("#img1").toggle('slow');
+        $("#img2").show('slow');
+    })
+})
